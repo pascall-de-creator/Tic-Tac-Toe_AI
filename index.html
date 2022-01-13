@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tic Tac Toe</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon">
+      </head>
+      <body>
+        <div id="maskel">
+          <div id="prompt">
+            <h1 id="stats">Congrats</h1>
+            <h2 id = "winner">you won</h2>
+            <button id="restart" onclick="restartgame()">Restart</button>
+          </div>
+        </div>
+        <div id="board">
+          <div class="row1">
+            <button onclick="play('00')" class="btn" id="cell00">.</button>
+            <button onclick="play('10')" class="btn" id="cell10">.</button>
+            <button onclick="play('20')" class="btn" id="cell20">.</button>
+          </div>
+          <div class="row2">
+            <button onclick="play('01')" class="btn" id="cell01">.</button>
+            <button onclick="play('11')" class="btn" id="cell11">.</button>
+            <button onclick="play('21')" class="btn" id="cell21">.</button>
+          </div>
+          <div class="row3">
+            <button onclick="play('02')" class="btn" id="cell02">.</button>
+            <button onclick="play('12')" class="btn" id="cell12">.</button>
+            <button onclick="play('22')" class="btn" id="cell22">.</button>
+          </div>
+        </div>
+        <script src="script.js"></script>
+      </body>
+</html>

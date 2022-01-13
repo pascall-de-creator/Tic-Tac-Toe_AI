@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100&display=swap');
+*{
+  transition: 0.5s;
+  font-family: Exo, roboto;
+}
+body{
+  margin: 0px;
+  background-color: #122436;
+}
+#board{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    align-content: center;
+    height: 100vh;
+}
+.btn{
+  height: 80px;
+  width: 80px;
+  background-color: #0000;
+  border-width: 6px;
+  margin: 5px;
+  border: 5px solid #ff008f;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 10px 2px #ff008f;
+  color: #ff008f;
+  font-size: 20px;
+}
+.btn:hover{
+  border: 3px solid #e200ff;
+  box-shadow: 0px 0px 10px 2px #e200ff;
+  color: #ff00be;
+}
+.btn:disabled{
+  border: 1px solid #ff008f;
+  color: #ff008f;
+}
+#maskel{
+  position: fixed;
+  background-color: #000000c2;
+  height: 100vh;
+  width:100%;
+  display: none;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+}
+#prompt{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+#restart{
+  padding: 10px 20px 10px 20px;
+  background-color: #0000;
+  border-width: 6px;
+  margin: 5px;
+  border: 3px solid cyan;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 10px 2px rgba(255, 0, 255, 0.5);
+  color: cyan;
+  font-size: 20px;
+}
+#restart:hover{
+  border: 3px solid #ff00be;
+  color: #ff00be;
+}
