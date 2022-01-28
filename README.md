@@ -2,7 +2,9 @@
 
 [![powered-by-PDe-C.png](https://i.postimg.cc/TwtnTtkG/powered-by-PDe-C.png)](https://postimg.cc/zbRyjFZP)
 
-[![tttgpv.png](https://i.postimg.cc/nzx1CMbk/tttgpv.png)](https://postimg.cc/LqyPW9sY)
+[![tttgpv.png](https://i.postimg.cc/nzx1CMbk/tttgpv.png)](https://pascall-tic-tac-toe.netlify.app)
+
+Website @[Netlify tictactoeai](https://pascall-tic-tac-toe.netlify.app)
 
 ### Tic Tac Toe Web application (game vs AI).
 
