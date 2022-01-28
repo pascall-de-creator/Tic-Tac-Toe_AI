@@ -1,4 +1,5 @@
-# Oden Recipies web
+# Odin Tic tac toe web game
+
 [![powered-by-PDe-C.png](https://i.postimg.cc/TwtnTtkG/powered-by-PDe-C.png)](https://postimg.cc/zbRyjFZP)
 
 [![tttgpv.png](https://i.postimg.cc/nzx1CMbk/tttgpv.png)](https://postimg.cc/LqyPW9sY)
