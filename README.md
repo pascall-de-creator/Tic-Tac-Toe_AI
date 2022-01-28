@@ -21,7 +21,5 @@ this is a project from [the odin project](https://www.theodinproject.com/).
 - [JS] - For interaction
 - [Netlify] - For Webhosting
 
-> Tic tac your toe
-
 License
 MIT
